@@ -6,14 +6,14 @@ body{
 }
 
 .carta {
-    background-color: rgba(0, 0, 0, 0.288);
+    background-color: rgba(0, 0, 0, 0.603);
     border: solid rgb(255, 255, 255);
     border-radius: 20px;
     justify-content: center;
     display: inline-flex;
-    margin: 50px;
-    width: 200px;
-    height: 200px;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
     cursor: pointer;
     color: white;
 }
@@ -21,11 +21,12 @@ body{
 p {
     font-size: 20px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 .mapa{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .vira{
@@ -37,14 +38,14 @@ p {
 @media screen and (max-width: 920px){
 
     .carta{
-        background-color: rgba(0, 0, 0, 0.452);
+        background-color: rgba(0, 0, 0, 0.644);
         border: solid rgb(255, 255, 255);
         border-radius: 20px;
         justify-content: center;
         display: inline-flex;
         margin: 5px;
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
         cursor: pointer;
         color: white;
     }
@@ -64,4 +65,30 @@ span{
 }
 #timer{
     color: white;
+    border: solid white 4px;
+    padding: 5px;
+    background-color: black;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+@media screen and (max-width: 366px){
+
+    .carta{
+        background-color: rgba(0, 0, 0, 0.452);
+        border: solid rgb(255, 255, 255);
+        border-radius: 20px;
+        justify-content: center;
+        display: inline-flex;
+        margin: 5px;
+        width: 80px;
+        height: 80px;
+        cursor: pointer;
+        color: white;
+    }
+    p{
+        padding: 2px;
+        font-size: 11px;
+
+    }
 }
